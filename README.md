@@ -52,13 +52,5 @@ if _name_ == "_main_":
     main()
 
 
----
 
- Test Examples
-
-Soil	Season	Rainfall	pH	Output
-
-loam	kharif	90	6.2	maize
-clay	kharif	200	6.0	rice, sugarcane
-sandy	kharif	40	7.0	bajra, millets, groundnut
 
