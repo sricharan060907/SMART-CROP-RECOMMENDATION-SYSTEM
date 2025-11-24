@@ -1,105 +1,6 @@
-# SMART-CROP-RECOMMENDATION-SYSTEM
-Here is the complete, clean, ready-to-upload README.md for the Python version of your Smart Crop Recommendation System (converted from Prolog)
-
-🌾 Smart Crop Recommendation System (Python)
-
-This is a Python version of the Smart Crop Recommendation System originally implemented in Prolog.
-The system recommends the best-suited crop based on soil type, season, rainfall, and soil pH.
-
-It uses a simple rule-based expert system similar to your Prolog logic.
 
 
----
-
-📌 Features
-
-✔ Rule-based knowledge base (converted from Prolog facts)
-
-✔ Python implementation of Prolog reasoning
-
-✔ Interactive CLI (input-based interface)
-
-✔ Instant crop recommendations
-
-✔ Easy-to-edit crop dataset
-
-✔ Beginner-friendly and works on any OS
-
-
-
----
-
-🧠 How It Works
-
-The program contains a list of crops and their requirements:
-
-Soil type
-
-Season
-
-Rainfall range
-
-Soil pH range
-
-
-The user enters environmental parameters, and the system matches them to crops using simple rule logic.
-
-Prolog facts → Python dictionaries
-Prolog rules → Python condition checks
-
-
----
-
-📂 Project Structure
-
-Smart-Crop-Recommendation/
-│
-├── smart_crop_python.py     # Main Python program
-├── README.md                # Project documentation
-└── data/                    # (Optional if you later use JSON)
-
-
----
-
-🖥 How to Run
-
-1. Install Python
-
-Python 3.8+ is recommended.
-
-Check Python version:
-
-python --version
-
-2. Run the script
-
-python smart_crop_python.py
-
-3. Enter the required inputs:
-
-Enter soil type (clay/loam/sandy/black):
-Enter season (kharif/rabi/annual):
-Enter rainfall (mm):
-Enter soil pH:
-
-Example Run
-
-========= SMART CROP RECOMMENDATION SYSTEM =========
-
-Enter soil type (clay/loam/sandy/black): loam
-Enter season (kharif/rabi/annual): kharif
-Enter rainfall (mm): 90
-Enter soil pH: 6.2
-
-Recommended Crops:
-- maize
-
-
----
-
-🧩 Python Code (Included in Repository)
-
-# SMART CROP RECOMMENDATION SYSTEM (Python Version)
+# SMART CROP RECOMMENDATION SYSTEM 
 
 crops = [
     {"name": "rice", "soil": "clay", "season": "kharif", "min_rain": 100, "max_rain": 250, "min_ph": 5.0, "max_ph": 6.5},
@@ -153,37 +54,11 @@ if _name_ == "_main_":
 
 ---
 
-🧪 Test Examples
+ Test Examples
 
 Soil	Season	Rainfall	pH	Output
 
 loam	kharif	90	6.2	maize
 clay	kharif	200	6.0	rice, sugarcane
 sandy	kharif	40	7.0	bajra, millets, groundnut
-
-
-
----
-
-🚀 Future Enhancements
-
-Use Machine Learning models
-
-Add a GUI or web application
-
-Weather API integration
-
-Fertilizer recommendation
-
-Disease prediction module
-
-
-
----
-
-👨‍💻 Author
-
-Sri Charan
-Smart Crop Recommendation System (Python)
-
 
